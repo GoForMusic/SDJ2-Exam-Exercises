@@ -10,6 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class QueueTest {
     private QueueADT<String> q;
 
+    // arrange
     @BeforeEach
     public void createQueue()
     {
@@ -19,8 +20,6 @@ class QueueTest {
     @Test
     public void addedElementIsInQueue()
     {
-        // arrange
-
         // act
         q.enqueue("A");
         //assert
@@ -32,11 +31,14 @@ class QueueTest {
     public void addMultipleElementsToQueue()
     {
 
+        //act
         q.enqueue("A");
         q.enqueue("B");
         q.enqueue("C");
         q.enqueue("D");
         q.enqueue("E");
+
+        //assert
         assertTrue(q.contains("A"));
         assertTrue(q.contains("B"));
         assertTrue(q.contains("C"));
@@ -49,10 +51,13 @@ class QueueTest {
     public void sizeIs4AfterAdding4Elements()
     {
 
+        //act
         q.enqueue("A");
         q.enqueue("B");
         q.enqueue("C");
         q.enqueue("D");
+
+        //assert
         assertTrue(4 == q.size());
         assertEquals(4, q.size());
         System.out.println("size done");
@@ -61,18 +66,21 @@ class QueueTest {
     @Test
     public void nullArgumentResultsInIllegalArgumentException()
     {
+        //assert
         assertThrows(IllegalArgumentException.class, () -> q.enqueue(null));
     }
 
     @Test
     public void fullQueueResultInIllegalStateException()
     {
+        //act
         q.enqueue("A");
         q.enqueue("B");
         q.enqueue("C");
         q.enqueue("D");
         q.enqueue("E");
 
+        //assert
         assertThrows(IllegalStateException.class, () -> q.enqueue("F"));
     }
 
@@ -81,7 +89,10 @@ class QueueTest {
 
     public void emptyQueueDoesntContainElementA()
         {
+            //assert
             assertTrue(q.contains("A"));
+
+            //act
             q.enqueue("B");
             q.enqueue("C");
             q.enqueue("D");
