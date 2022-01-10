@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdapterBattle/AdapterBattle.iml" filepath="$PROJECT_DIR$/AdapterBattle/AdapterBattle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdapterEx2/AdapterEx2.iml" filepath="$PROJECT_DIR$/AdapterEx2/AdapterEx2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProducerConsumer2/ProducerConsumer2.iml" filepath="$PROJECT_DIR$/ProducerConsumer2/ProducerConsumer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProxyImage/ProxyImage.iml" filepath="$PROJECT_DIR$/ProxyImage/ProxyImage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QueueJunit/QueueJunit.iml" filepath="$PROJECT_DIR$/QueueJunit/QueueJunit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RMI/RMI.iml" filepath="$PROJECT_DIR$/RMI/RMI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReaderWriter/ReaderWriter.iml" filepath="$PROJECT_DIR$/ReaderWriter/ReaderWriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SDJ2-Exam-Exercises.iml" filepath="$PROJECT_DIR$/.idea/SDJ2-Exam-Exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SingleTonPractise/SingleTonPractise.iml" filepath="$PROJECT_DIR$/SingleTonPractise/SingleTonPractise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StatePatterns/StatePatterns.iml" filepath="$PROJECT_DIR$/StatePatterns/StatePatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StrategyPattern/StrategyPattern.iml" filepath="$PROJECT_DIR$/StrategyPattern/StrategyPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UpperAndLowerRMI/UpperAndLowerRMI.iml" filepath="$PROJECT_DIR$/UpperAndLowerRMI/UpperAndLowerRMI.iml" />
+    </modules>
+  </component>
+</project>
